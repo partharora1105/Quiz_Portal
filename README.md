@@ -13,4 +13,3 @@ An online exam software built for educational institutes to create tests for the
 	<li>Open your browser to <a href="http://localhost:5000/quiz/admin">localhost:5000/quiz/admin</a> </li>
 </ul>
 <h2>Media</h2>
-# Quiz_Portal
