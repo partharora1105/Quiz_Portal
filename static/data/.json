@@ -1,0 +1,1 @@
+{"questionPaper": {"testName": "", "paperPath": "static/data/.pdf", "time": 10, "numberOfQuestions": 3, "mcqs": {"1": {"numberOfOptions": 4, "alphabets": ["A", "B", "C", "D"], "correctOptions(s)": ["A"], "msq": false}, "2": {"numberOfOptions": 4, "alphabets": ["A", "B", "C", "D"], "correctOptions(s)": ["A", "B"], "msq": true}}}, "studentResponses": {}}

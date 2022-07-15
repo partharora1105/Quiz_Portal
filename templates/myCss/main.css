@@ -1,0 +1,213 @@
+body{
+	height: 100vh;
+	background: rgb(225,149,229);
+	background: linear-gradient(137deg, rgba(225,149,229,1) 0%, rgba(218,93,214,1) 76%);
+
+font-family: 'Poppins', sans-serif;
+font-size: 20px
+
+}
+
+.centerBox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.loginHeading{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.inputBox{
+	
+	border-bottom: 2px solid white!important;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	margin: 2%;
+
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+
+.signInPrompt{
+	font-size: 14px;
+	color: white;
+}
+
+.loginButton{
+	background-color: white;
+	border: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2px;
+	font-size: 16px;
+
+
+}
+.errorMessage{
+	color: red;
+	font-size: 16px;
+}
+
+
+/*Choose Page*/
+
+.chatHeader{
+	
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    /* goes for chat page too*/
+/*REMEMBER MEDIA QUERY*/
+}
+
+
+.contactBox{
+	color: black;
+    background: white;
+    width: 50%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 1%;
+ /*REMEMBER MEDIA QUERY*/
+
+}
+
+.contactName{
+	margin-left: 2%;
+	display: inline;
+}
+.contactCTA{
+	float: right;
+    display: inline;
+    background-color: rgba(255,255,255,0);
+    border: 0;
+}
+.newContactButton{
+	color: black;
+    background: white;
+    width: 4%;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 1%;
+    border: 0;
+    float: right;
+    margin-left: 70.5%;
+    margin-top: 1%;
+/*REMEMBER MEDIA QUERY*/
+}
+
+.newContactBox{
+	border-bottom: 2px solid grey!important;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+}
+.new{
+	display: none;
+}
+
+/*Chat Page*/
+
+.chatBox{
+
+	width: 45%;
+	height: 100%;
+	text-align: center;
+/*REMEMBER MEDIA QUERY*/
+}
+
+
+
+.message{
+	font-size: 14px;
+	background-color: white;
+	width: 90%;
+	padding: 2% 5%;
+	margin-bottom: 4%;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+
+.send{
+	text-align: right;
+	float: right;
+	border-radius: 10px 10px 0 10px;
+}
+.receive{
+	text-align: left;
+	float: left;
+	border-radius: 10px 10px 10px 0 ;
+	opacity: 0.8;
+
+}
+
+.sendMessage{
+	width: 88.5%;
+	display: inline;
+	font-size: 14px;
+	background-color: white;
+	padding: 2% 5%;
+	margin-bottom: 4%;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	border: 0;
+	border-radius: 6px;
+
+}
+.sendMessageButton{
+	width: 10%;
+	padding:1.2% 0;
+	margin-bottom: 4%;
+	display: inline;
+	background-color: white;
+	border: 0;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	border-radius: 6px;
+}
+
+@media only screen and (max-width: 763px) {
+  .chatHeader{
+    margin-top: 20%;
+    margin-bottom: 15%;
+   
+  }
+  .contactBox{
+    width: 90%;
+    padding: 5%;
+  }
+  .newContactButton{
+    margin-left: 82%;
+    width: 10%;
+  }
+  .chatBox{
+    width: 100%;
+  }
+}
