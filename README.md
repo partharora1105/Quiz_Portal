@@ -14,14 +14,14 @@ An online exam software built for educational institutes to create tests for the
 </ul>
 <h2>Media</h2>
 <p align="center">
-  <img src="www.projects.bet/Media/github/Quiz/img1.png">
+  <img src="/github/img1.png">
   <br>Admin Panel
 </p>
 <p align="center">
-  <img src="www.projects.bet/Media/github/Quiz/img2.png">
+  <img src="/github/img2.png">
   <br>Question Paper Maker
 </p>
 <p align="center">
-  <img src="www.projects.bet/Media/github/Quiz/img3.png">
+  <img src="/github/img3.png">
   <br>Attempt Sheet
 </p>
